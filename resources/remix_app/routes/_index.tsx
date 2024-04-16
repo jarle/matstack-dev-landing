@@ -1,7 +1,15 @@
-import type { MetaFunction } from '@remix-run/node'
+import app from '@adonisjs/core/services/app'
+import { redirect, type MetaFunction } from '@remix-run/node'
 
 export const meta: MetaFunction = () => {
   return [{ title: 'New Remix App' }, { name: 'description', content: 'Welcome to Remix!' }]
+}
+
+export const loader = () => {
+  if (app.inProduction) {
+    return redirect('https://remix-adonisjs.matstack.dev')
+  }
+  return null
 }
 
 export default function Index() {
