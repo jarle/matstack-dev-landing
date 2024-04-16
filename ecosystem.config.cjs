@@ -2,7 +2,7 @@
 module.exports = {
   apps: [
     {
-      name: 'youtube-summarized',
+      name: 'matstack-dev-landing',
       script: 'build/bin/server.js',
       kill_timeout: 810000,
       cron_restart: '10 */6 * * *',
