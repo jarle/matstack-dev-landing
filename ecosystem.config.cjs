@@ -14,7 +14,7 @@ module.exports = {
       "host": ["165.227.208.86"],
       "ref": "origin/master",
       "repo": "git@github.com:jarle/matstack-dev-landing.git",
-      "path": "/home/root/deployments/matstack-dev-landing",
+      "path": "/root/deployments/matstack-dev-landing",
       "post-deploy": "npm install"
     }
   }
