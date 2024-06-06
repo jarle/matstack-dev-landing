@@ -6,6 +6,10 @@ module.exports = {
       script: 'build/bin/server.js',
       kill_timeout: 810000,
       cron_restart: '10 */6 * * *',
+      env: {
+        PORT: 42402,
+        NODE_ENV: 'production',
+      }
     },
   ],
   deploy: {
