@@ -16,7 +16,7 @@ module.exports = {
       "repo": "git@github.com:jarle/matstack-dev-landing.git",
       "path": "/root/deployments/matstack-dev-landing",
       'post-deploy':
-        'npm install && npm run build && pm2 reload ecosystem.config.cjs --env production',
+        'source ~/.bashrc && npm install && npm run build && pm2 reload ecosystem.config.cjs --env production',
     }
   }
 }
