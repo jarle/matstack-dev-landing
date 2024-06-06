@@ -12,7 +12,7 @@ module.exports = {
     production: {
       "user": "root",
       "host": ["165.227.208.86"],
-      "ref": "origin/master",
+      "ref": "origin/main",
       "repo": "git@github.com:jarle/matstack-dev-landing.git",
       "path": "/root/deployments/matstack-dev-landing",
       "post-deploy": "npm install"
