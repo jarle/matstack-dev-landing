@@ -62,7 +62,7 @@
     "@adonisjs/shield": "^8.1.1",
     "@adonisjs/static": "^1.1.1",
     "@adonisjs/vite": "^3.0.0-11",
-    "@matstack/remix-adonisjs": "^0.0.23",
+    "@matstack/remix-adonisjs": "^0.0.33",
     "@remix-run/css-bundle": "^2.8.1",
     "@remix-run/node": "^2.8.1",
     "@remix-run/react": "^2.8.1",
