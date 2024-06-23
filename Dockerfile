@@ -36,5 +36,5 @@ ENV CACHE_VIEWS="true" \
     LOG_LEVEL="info" \
     SESSION_DRIVER="cookie" \
     DB_CONNECTION=pg \
-    APP_NAME="youtube-summarized"
+    APP_NAME="matstack-dev"
 CMD [ "pm2-runtime", "start", "/app/ecosystem.config.cjs"]
