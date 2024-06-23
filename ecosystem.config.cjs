@@ -3,7 +3,7 @@ module.exports = {
   apps: [
     {
       name: 'matstack-dev-landing',
-      script: 'build/bin/server.js',
+      script: 'bin/server.js',
       kill_timeout: 810000,
       cron_restart: '10 */6 * * *',
       env: {
