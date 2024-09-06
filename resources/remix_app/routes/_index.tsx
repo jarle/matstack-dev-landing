@@ -8,14 +8,14 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <Container>
-      <div className='flex flex-col text-center gap-12'>
+      <div className='flex flex-col gap-12 text-center'>
         <div>
           <h1 className='text-4xl font-extrabold'>matstack.dev</h1>
-          <h2 className='text-lg mt-1'>build and deploy really good applications</h2>
+          <h2 className='mt-1 text-lg'>build and deploy really good applications</h2>
         </div>
         <ul>
           <li>
-            <a className='underline' href="https://remix-adonisjs.matstack.dev/">@matstack/remix-adonisjs</a>
+            <a className='underline' href="https://matstack.dev/remix-adonisjs">@matstack/remix-adonisjs</a>
           </li>
           <li>
             <div>@matstack/dreamstart (coming soon)</div>
